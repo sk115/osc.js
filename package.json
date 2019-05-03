@@ -37,7 +37,6 @@
     },
     "dependencies": {
         "long": "4.0.0",
-        "serialport": "6.2.2",
         "slip": "1.0.2",
         "wolfy87-eventemitter": "5.2.5",
         "ws": "6.0.0"
@@ -47,5 +46,6 @@
         "node-test": "node tests/node-all-tests.js",
         "browser-test": "testem ci --file tests/testem.json",
         "clean-test": "./clean-npm.sh && npm install && npm test"
-    }
+    },
+    "types": "osc.d.ts"
 }
