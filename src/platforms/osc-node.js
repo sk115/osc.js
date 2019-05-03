@@ -137,7 +137,7 @@
         }
     };
 
-    p = osc.UDPPort.prototype = Object.create(osc.Port.prototype);
+    var p = osc.UDPPort.prototype = Object.create(osc.Port.prototype);
     p.constructor = osc.UDPPort;
 
     p.open = function () {
